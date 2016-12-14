@@ -22,8 +22,13 @@ end
 # First Test
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed a multiple of 3' do
-    # eq - A matcher is essentially a method that will match the operation inside the
-    # expect method (result) with the expectation (fizzbuzz(3)= fizz).
     expect(fizzbuzz(9)).to eq 'fizz'
+  end
+end
+
+# Second Test
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed a multiple of 5' do
+    expect(fizzbuzz(5)).to eq 'buzz'
   end
 end
