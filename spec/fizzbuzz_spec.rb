@@ -6,6 +6,8 @@
 # require 'fizzbuzz'. Ruby will infer the .rb extension if it is omitted,
 # so this is optional too.
 
+# Each describe block equals one example in RSPEC
+
 require 'fizzbuzz'
 
 # Example test
@@ -22,6 +24,6 @@ describe 'fizzbuzz' do
   it 'returns "fizz" when passed a multiple of 3' do
     # eq - A matcher is essentially a method that will match the operation inside the
     # expect method (result) with the expectation (fizzbuzz(3)= fizz).
-    expect(fizzbuzz(0)).to eq 'fizz'
+    expect(fizzbuzz(9)).to eq 'fizz'
   end
 end
