@@ -13,8 +13,6 @@ require 'fizzbuzz'
 # Example test
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed 3' do
-    # eq - A matcher is essentially a method that will match the operation inside the
-    # expect method (result) with the expectation (fizzbuzz(3)= fizz).
     expect(fizzbuzz(3)).to eq 'fizz'
   end
 end
