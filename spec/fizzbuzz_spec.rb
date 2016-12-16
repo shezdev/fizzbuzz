@@ -36,6 +36,6 @@ end
 # Third Test
 describe 'fizzbuzz' do
   it 'returns "buzz" when passed a multiple of 5' do
-    expect(fizzbuzz(3,5)).to eq 'fizzbuzz'
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 end
